@@ -25,7 +25,7 @@ const App = () => {
 
  useEffect((getAllPokemon = getAllPokemons) => {
    getAllPokemon()
-}, [])
+}, [getAllPokemons])
 
   return (
     <div className="app-contaner">
