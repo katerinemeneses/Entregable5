@@ -6,7 +6,7 @@ const App = () => {
    const[allPokemons, setAllPokemons] = useState([])
    const [loadMore, setLoadMore] = useState('https://pokeapi.co/api/v2/pokemon?limit=20')
 
-  /*const getAllPokemons = async () => {
+  const getAllPokemons = async () => {
     const res = await fetch(loadMore)
     const data = await res.json()
 
@@ -21,7 +21,7 @@ const App = () => {
       })
     }
     createPokemonObject(data.results)
-  }*/
+  }
 
  useEffect(() => {
   (async () => {
