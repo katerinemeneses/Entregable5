@@ -24,7 +24,8 @@ const App = () => {
   }
 
  useEffect(() => {
-  const getAllPokemons1 = async () => {
+   const getAllPokemonsPivot = () => (
+  getAllPokemons1 = async () => {
     const res = await fetch(loadMore)
     const data = await res.json()
 
@@ -39,8 +40,8 @@ const App = () => {
       })
     }
     createPokemonObject(data.results)
-  }
-   getAllPokemons1()
+  })
+   getAllPokemons1()()
 }, [getAllPokemons])
 
   return (
