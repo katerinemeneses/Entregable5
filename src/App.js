@@ -41,7 +41,7 @@ const App = () => {
     createPokemonObject(data.results)
   }
    getAllPokemons1()
-}, [])
+}, [getAllPokemons])
 
   return (
     <div className="app-contaner">
