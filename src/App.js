@@ -23,8 +23,8 @@ const App = () => {
     createPokemonObject(data.results)
   }
 
- useEffect((getAllPokemons = getAllPokemons) => {
-   getAllPokemons()
+ useEffect((getAllPokemon = getAllPokemons) => {
+   getAllPokemon()
 }, [])
 
   return (
