@@ -23,9 +23,9 @@ const App = () => {
     createPokemonObject(data.results)
   }
 
- useEffect(() => {
+ useEffect(() => (
   getAllPokemons()
- }, [])
+ ), [])
 
   return (
     <div className="app-contaner">
