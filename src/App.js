@@ -40,7 +40,7 @@ const App = () => {
     }
     createPokemonObject(data.results)
   })()
-}, [])
+}, [loadMore])
 
   return (
     <div className="app-contaner">
